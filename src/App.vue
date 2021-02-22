@@ -32,14 +32,13 @@ export default {
         volume: 0.7, // 初始化音量
         playbackSpeed: [0.5, 0.75, 1, 1.25, 1.5, 2, 3], //可选的播放速度，可自定义
         video: {
-          url:
-            "https://qingxi.xi-zuida.com/20210214/1241_b3b11edb/index.m3u8", // 播放视频的路径
-          type: 'hls',
+          url: "http://youku.hao-yongjiu.com/20210219/7516_588b38d6/index.m3u8", // 播放视频的路径
+          type: "hls",
           pluginOptions: {
-        hls: {
-            // hls config
-        },
-    },
+            hls: {
+              // hls config
+            },
+          },
           // quality: [
           //   // 设置多个质量的视频
           //   {

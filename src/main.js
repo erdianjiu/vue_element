@@ -4,9 +4,9 @@ import router from './router'
 import VueDPlayer from "vue-dplayer";
 import "vue-dplayer/dist/vue-dplayer.css";
 import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 
-
-
+Vue.use(ElementUI);
 Vue.use(VueDPlayer)
 Vue.use(ElementUI)
 
